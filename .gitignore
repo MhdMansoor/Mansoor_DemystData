@@ -1,23 +1,9 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Ignore Node.js modules
+/Backend/node_modules/
+/web-admin/node_modules/
 
-# dependencies
-/Backend/node_modules
-/web-admin/node_modules
+# Ignore Python virtual environment
+/backend/venv/
 
-# testing
-/coverage
-
-# production
-/Backend/build
-/web-admin/build
-
-# misc
-.DS_Store
-# .env
-# .env.development
-# .env.staging
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-yarn.lock
+# Ignore build artifacts
+/frontend/build/
