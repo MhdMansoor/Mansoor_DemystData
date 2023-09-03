@@ -2,14 +2,14 @@ version: "3"
 services:
   frontend:
     build:
-      context: ./web-admin # Path to your frontend application directory
+      context: ./web-admin
     ports:
-      - "3000:3000" # Map your frontend app's port to host
+      - "3000:3000"
 
   backend:
     build:
-      context: ./Backend # Path to your backend application directory
+      context: ./Backend
     ports:
-      - "5000:5000" # Map your backend app's port to host
+      - "5000:5000"
     depends_on:
-      - frontend # Ensure frontend is running before starting the backend
+      - frontend
