@@ -6,4 +6,4 @@
 /backend/venv/
 
 # Ignore build artifacts
-/frontend/build/
+/web-admin/build/
